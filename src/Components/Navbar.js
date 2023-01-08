@@ -1,10 +1,13 @@
+import { Typography } from '@mui/material'
 import React from 'react'
 
 export default function Navbar() {
   return (
     <>
     <div>
-        {/* <h2>thisis {props.title}</h2> */}
+        <Typography>
+          I am navbar
+        </Typography>
         </div> 
     </>
     

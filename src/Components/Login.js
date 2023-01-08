@@ -1,6 +1,8 @@
 import React from 'react'
 import LockIcon from '@mui/icons-material/Lock';
-import {Avatar, Checkbox, Grid, Paper, TextField,FormControlLabel,Link, Typography,Button} from '@mui/material'
+import {Avatar, Checkbox, Grid, Paper, TextField,FormControlLabel, Typography,Button} from '@mui/material';
+import {Link} from "react-router-dom"
+// import Signup from './Signup';
 
 export default function Login() {
     const paperstyle={
@@ -36,7 +38,7 @@ export default function Login() {
         control={<Checkbox defaultChecked/>}
         label="Remember me"/>
         <Typography>
-dont have account <Link href='#'>creat account</Link>
+dont have account <Link to='/Signup'>creat account</Link>
         </Typography>
     {<Button variant='contained' fullWidth style={commonStyle}> Login</Button> } 
     
